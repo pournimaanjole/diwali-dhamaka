@@ -1,0 +1,88 @@
+.gretting-card{
+   
+   width: 1200px;
+  height: 500px;
+display: block;
+  margin: 40px auto;
+  color: white;
+  position: relative;
+ 
+}
+.theme-1{
+   
+       background-image: url(./diwali6.avif);
+    
+       background-repeat: no-repeat;
+       background-size: cover;
+      
+      
+}
+
+.theme-2{
+   
+       background-image: url(./diwali5.avif);
+       
+       background-repeat: no-repeat;
+       background-size: cover;
+      
+       
+      
+}
+
+.theme-3{
+        background-image: url(./diwali10.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.theme-4{
+background-image: url(./diwali8.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.theme-5{
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.happydiwali{
+        padding-bottom: 1rem;
+     text-align: center;
+}
+.to{
+        padding: 1rem 3rem;
+}
+.from{
+        position: absolute;
+        right: 3rem;
+        bottom: 5rem;
+}
+.akashdiya{
+        height: 10rem;
+        padding: 2rem;
+}
+.display{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.greetingwhish{
+      
+        height: 10rem;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+}
+.link{
+        margin: 5rem 10rem;
+        background-color: rgb(195, 223, 247);
+        color: black;
+        padding: 1rem;
+        
+}
+.link p{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: lighter;
+}
