@@ -45,19 +45,19 @@ const Home = () => {
 
       <h2 className='from'>From {from}😊</h2>
      </div>
-
+     <h2 className='udate'>want to update the this ?👋 cheack out below</h2>
      <div className='link'><p>{import.meta.env.VITE_BASE_URL}?to={to}&from={from}&g={gretingNumber}&t={themenumber}</p></div>
-     
+    
      <input type='text' value={to} onChange={(e)=>{
       setto(e.target.value)
-     }} />
+     }}  className='input-box'/>
 
      <input type='text' value={from} onChange={(e)=>{
       setfrom(e.target.value)
-     }} />
+     }} className='input-box'/>
      <select value={gretingNumber} onChange={(e)=>{
       setgreetingNumber(e.target.value)
-     }}>
+     }} className='input-box'>
       <option value='0'>greeting 1</option>
       <option value='1'>greeting 2</option>
       <option value='2'>greeting 3</option>
@@ -66,7 +66,7 @@ const Home = () => {
      </select>
      <select value={themenumber} onChange={(e)=>{
       setthemenumber(e.target.value)
-     }}>
+     }} className='input-box'>
      <option value='0'>none</option>
       <option value='1'>theme 1</option>
       <option value='2'>theme 2</option>

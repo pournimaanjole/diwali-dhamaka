@@ -86,3 +86,15 @@ background-image: url(./diwali8.avif);
         font-size: 1.2rem;
         font-weight: lighter;
 }
+.input-box{
+        height: 2rem;
+        width: 15rem;
+        margin-left: 2rem;
+}
+.udate{
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+       
+
+}
